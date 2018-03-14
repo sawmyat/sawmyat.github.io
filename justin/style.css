@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    background-color: #000000f3;
+}
+a{
+    text-decoration: none;
+    color: #252525bb;
+}
+a:hover{
+    text-decoration: none;
+    color: #23254ed5;
+}
+.navi{
+    display: block;
+    background-color: rgb(199, 199, 198);
+    color: #252525bb;
+    font-family: "Bookman Old Style";
+    font-weight: 550;
+    font-size: 30px;
+    height: 60px;
+    padding: 8px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+#icon{
+    height: 65px;
+    width: 75px;
+    margin-left: 30px;
+}
+.cover{
+    background-image: url("img/cover.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 0px 60px;
+    background-attachment: fixed;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.coverin{
+    margin: auto;
+    height: 590px;
+    width: 98%;
+    background-color: rgba(84, 87, 88, 0.281);
+    color: white;
+    padding: 300px 280px;
+    font-size: 3.6em;
+    font-family: cursive;
+}
+.Linfo{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 28%;
+    padding: 20px;
+}
+.Lhead{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 9%;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.latest{
+    background-image: url("img/conimg.jpg");
+    background-attachment: fixed;
+    padding: 10px;
+}
+.ytbutton{
+    height: 50px;
+    width: 250px;
+    opacity: 0.7;
+}
+.foot{
+    height: 420px;
+    background-image: url("img/foot4.jpg");
+    background-position-y: 140px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#connect{
+    font-family: cursive;
+    background-color: #41414181;
+    color: beige;
+    font-size: 2em;
+}
+.iconrow{
+    background-color: #41414181;
+}
+.sicon{
+    margin: 40px 130px;
+    height: 100px;
+    width: 100px;
+}
+/*-----------------------------------------HITs page -----------------------------------------------*/
+
+.songcover{
+    background-image: url("img/songcover.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 0px 60px;
+    background-attachment: fixed;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.song{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 20%;
+    padding: 20px;
+}
+.Shead{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 9%;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.topsongs{
+    background-image: url("img/conimg.jpg");
+    background-attachment: fixed;
+    padding: 10px;
+}
+
+
+
+
+/*-----------------------------------------tour page -----------------------------------------------*/
+.covertour{
+    background-image: url("img/tourmain.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 0px 60px;
+    background-attachment: fixed;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.coverintour{
+    height: 400px;
+    width: 98%;
+    background-color: rgba(84, 87, 88, 0.281);
+    color: white;
+    padding: 290px 280px;
+    font-size: 3.6em;
+    font-family: cursive;
+}
+.tourmain{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+.tourcont{
+    height: 50px;
+    font-family: cursive;
+    color: white;
+}
+.country{
+    background-color: rgb(151, 151, 151);
+    margin-bottom: 90px;
+    padding: 20px;
+}
+.eve{
+    background-color: rgba(196, 194, 194, 0.575);
+}
+.us{
+    background-image: url("img/tourus.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.eu{
+    background-image: url("img/toureu.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.as{
+    background-image: url("img/touras.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.af{
+    background-image: url("img/touraf.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*-----------------------------------------Achivement page -----------------------------------------------*/
+
+.achivcover{
+    background-image: url("img/achicover.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 0px 60px;
+    background-attachment: fixed;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.achivcoverin{
+    margin: auto;
+    height: 590px;
+    width: 98%;
+    background-color: rgba(84, 87, 88, 0.281);
+    color: white;
+    padding: 300px 280px;
+    font-size: 3.6em;
+    font-family: cursive;
+}
+.Ainfo{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 16%;
+    padding: 20px;
+}
+.Achivhead{
+    margin-bottom: 10px;
+    background-color: rgba(84, 87, 88, 0.61);
+    color: white;
+    height: 9%;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.Achiv{
+    background-image: url("img/conimg.jpg");
+    background-attachment: fixed;
+    padding: 10px;
+}
+/*************************************************************gallery**********************************************************/
+.galcover{
+    background-image: url("img/tourus.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-position: 0px 60px;
+    background-attachment: fixed;
+    height: 580px;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.imageItem{
+    width: 10%;
+    height: 50%;
+    border: #4b4a4a4f solid;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+} 
+#img1{
+    background-image: url("img/1.jpg");
+    background-position-y: -20px;
+}
+#img2{
+    background-image: url("img/2.jpg");
+    background-position-y: -20px;
+}
+#img3{
+    background-image: url("img/3.jpg");
+   }
+#img4{
+    background-image: url("img/4.jpg");
+    background-position-y: -20px;
+}
+#img5{
+    background-image: url("img/5.jpg");
+}
+#img6{
+    background-image: url("img/6.jpg");
+}
+#img7{
+    background-image: url("img/7.jpg");
+}
+#img8{
+    background-image: url("img/8.jpg");
+}
+#img9{
+    background-image: url("img/9.jpg");
+}
+#img10{
+    background-image: url("img/10.jpg");
+}#img11{
+    background-image: url("img/11.jpg");
+}#img12{
+    background-image: url("img/12.jpg");
+    background-position-y: -20px;
+}
